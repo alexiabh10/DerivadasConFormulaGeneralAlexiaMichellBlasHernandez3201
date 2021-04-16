@@ -1,0 +1,28 @@
+% Ti­tulo: Derivada con formula General
+% Autor: Alexia Michell Blas Hernandez (alexiabh10) michhernandez1001@gmail.com
+% Fecha: 20210415
+% Sesion: 1
+
+ % y=((10-(x)))
+% si se grafica su comportamiento es lineal
+% ^
+% y |
+% |   
+% | ____
+% | 
+% | _____>x
+%
+
+% limpiar variables
+ clear
+% Ejemplo f (x) = a
+% Rango de -3..3 en i = 0.1
+ x = [-5: 1 :5]; 
+% Valor de la funciÃ³n 
+ y=((10-(x)))
+% Dibujar x, y
+ plot(x , y);
+% Titulo ("f (x)=y=((10-(x)))
+ 
+% Etiqueta para x
+ xlabel ( "x");
